@@ -1,6 +1,7 @@
 import Menu from '@/components/Menu';
 import Image from 'next/image';
 import { FaChevronDown } from 'react-icons/fa';
+import Hero from '@/components/skillathon/hero'
 
 export default function Skillathon() {
   return (
@@ -10,22 +11,22 @@ export default function Skillathon() {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center bg-[#030B1E] h-screen bg-cover bg-center" style={{ backgroundImage: "url('/cusitBuilding.gif')" }}>
-        <h1 className="text-6xl font-bold mb-4">Skillathon 2024</h1>
-        <p className="text-2xl mb-8">Enhance your skills, collaborate, and innovate!</p>
-        <button className="bg-blue-500 px-6 py-3 rounded-full font-bold text-lg hover:bg-blue-600 transition">
-          Register Now
-        </button>
-        <a href="#about">
-        <FaChevronDown className="mt-16 text-3xl animate-bounce" />
-        </a>
+        <Hero />
+
       </section>
 
       {/* About Section */}
-      <section id="about" className="p-10 text-center">
+      <section id="about" className="flex items-center justify-center gap-5 w-full h-screen p-10">
+        <div className='w-1/3'>
         <h2 className="text-4xl font-bold mb-4">What is Skillathon?</h2>
         <p className="text-lg max-w-2xl mx-auto">
           Skillathon is an exciting event where participants come together to improve their skills, learn new technologies, and collaborate on innovative projects. Whether you’re a beginner or an expert, there's something for everyone.
         </p>
+        </div>
+        <div>
+          <img src="skillathon.jpg" width={500} alt="" />
+        </div>
+        
       </section>
 
       {/* Timeline Section */}
@@ -71,7 +72,7 @@ export default function Skillathon() {
           </div>
           <div>
             <h3 className="text-2xl font-semibold">How do I register?</h3>
-            <p>Click on the "Register Now" button above to sign up for Skillathon 2024.</p>
+            <p>Click on the <span className='text-blue-500 hover:text-blue-600 cursor-pointer'>"Register Now"</span> button above to sign up for Skillathon 2024.</p>
           </div>
         </div>
       </section>
