@@ -43,11 +43,11 @@ export default function Team() {
                         <h1 className="text-base text-gray-800 font-bold">Muhammad Junaid:</h1>
                         <p>A skilled machine learning engineer, Muhammad is dedicated to pushing the boundaries of AI.</p>
                         <h1 className="text-base text-gray-800 font-bold">Asim Nisar:</h1>
-                        <p> A creative force, Asim is responsible for crafting visually stunning designs that elevate cusit.ai's brand.</p>
+                        <p> A creative force, Asim is responsible for crafting visually stunning designs that elevate cusit.ai &apos s brand.</p>
                         <h1 className="text-base text-gray-800 font-bold">Taseer Mehboob:</h1>
                         <p> A financial wizard and machine learning expert, Taseer oversees financial operations and contributes to technical advancements.</p>
                         <h1 className="text-base text-gray-800 font-bold">Muskan Ijaz:</h1>
-                        <p> As the media head, Muskan crafts compelling narratives and manages cusit.ai's online presence. </p>
+                        <p> As the media head, Muskan crafts compelling narratives and manages cusit.ai &apos s online presence. </p>
 
                     </div>
                 </div>

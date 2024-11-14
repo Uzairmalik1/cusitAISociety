@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 
+
 const faqs = [
   {
     question: "What is the cusit.ai Skillathon?",
@@ -14,9 +15,9 @@ const faqs = [
 ];
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleFAQ = (index: any) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
