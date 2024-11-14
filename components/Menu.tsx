@@ -13,7 +13,7 @@ export default function Menu() {
   return (
     <>
       {/* Menu Icon */}
-      <div className="flex absolute top-0 left-0 justify-between items-center p-3 w-full cursor-pointer">
+      <div className="flex absolute top-0 left-0 justify-between items-center p-3 w-full cursor-pointer z-10">
         {/* Logo */}
         <Link href={"/"} className="flex items-center">
           <img
@@ -37,6 +37,7 @@ export default function Menu() {
           <button onClick={toggleMenu} className="absolute top-4 right-4">
             <IoClose size={40} />
           </button>
+          <Link href='/' className="cursor-pointer hover:text-purple-400 transition duration-300">Home</Link>
           <Link href='/skillathon' className="cursor-pointer hover:text-purple-400 transition duration-300">Skillathon</Link>
         </div>
       )}
