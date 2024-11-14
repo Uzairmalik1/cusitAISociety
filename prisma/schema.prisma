@@ -1,28 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
 
 datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
-generator client {
-  provider = "prisma-client-js"
+model User {
+  id        Int        @id @default(autoincrement())
+  name      String
+  IDNumber  Int        @unique
+  mobNumber Int
+  field     String
+  semester  String
+  email     String     @unique
+  skill     String
+  ExLevel   SkillLevel
+  createdAt DateTime   @default(now())
 }
 
 enum SkillLevel {
   BEGINNER
   INTERMEDIATE
   EXPERT
-}
-
-model User {
-  id         Int      @id @default(autoincrement())
-  name       String
-  IDNumber   Int      @unique
-  mobNumber  Int
-  field      String
-  semester   String
-  email      String   @unique
-  skill      String
-  ExLevel    SkillLevel
-  createdAt  DateTime @default(now())
 }
