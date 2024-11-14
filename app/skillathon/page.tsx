@@ -1,7 +1,5 @@
 "use client"
 import Menu from '@/components/Menu';
-import Image from 'next/image';
-import { FaChevronDown } from 'react-icons/fa';
 import Hero from '@/components/skillathon/hero'
 import Link from 'next/link';
 import FAQ from '@/components/skillathon/faq';

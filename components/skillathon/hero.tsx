@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { CgArrowLongRight } from 'react-icons/cg';
-import { FaCheckCircle, FaChevronDown } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 import { IoCheckmarkSharp } from 'react-icons/io5';
 
 export default function Skillathon() {

@@ -1,7 +1,6 @@
 "use client"
 import Footer from '@/components/footer';
 import Menu from '@/components/Menu';
-import FAQ from '@/components/skillathon/faq';
 import Team from '@/components/Team';
 import Image from 'next/image';
 import Link from 'next/link';
