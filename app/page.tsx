@@ -26,7 +26,7 @@ export default function HomePage() {
 
         {/* Main Content */}
         <div className="z-10 text-center text-white space-y-16 md:space-y-32">
-          <div className="flex flex-col items-center pb-3">
+          <div className="flex flex-col items-center pb-40">
             <img src="/logo.png" alt="Logo" width={400} className='w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3' />
 
             <Link href={""} className="mt-6 m-5 px-4 py-2 md:px-6 md:py-3 bg-transparent hover:bg-purple-600 rounded-lg border-2 border-white font-semibold text-white transition duration-300 ease-in-out transform hover:scale-105">
