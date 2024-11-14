@@ -56,15 +56,15 @@ export default function HomePage() {
 
           <h1 className='text-2xl md:text-4xl font-bold leading-tight text-black mb-6'>Our Vision</h1>
           <p className="text-sm md:text-lg text-gray-700 mb-4">
-            City University of Peshawar stands at the forefront of the artificial intelligence revolution with cusit.ai, our dedicated AI initiative. We are committed to driving innovation and shaping a brighter future through groundbreaking research, nurturing talented individuals, and promoting ethical AI practices.
+            City University of Peshawar stands at the forefront of the artificial intelligence revolution with cusit.ai, our dedicated AI initiative. <br /> We are committed to driving innovation and shaping a brighter future through groundbreaking research, nurturing talented individuals, and promoting ethical AI practices. <br />
 
-            We believe AI has the potential to revolutionize industries, solve global challenges, and improve the quality of life for all. cusit.ai fosters a collaborative and interdisciplinary environment, empowering students and faculty to explore the limitless possibilities of AI.
+            We believe AI has the potential to revolutionize industries, solve global challenges, and improve the quality of life for all. cusit.ai fosters a collaborative and interdisciplinary environment, empowering students and faculty to explore the limitless possibilities of AI. <br />
 
-            Through cutting-edge research, cusit.ai delves into the frontiers of AI, pushing the boundaries of what&apos;s possible. We invest in nurturing the next generation of AI experts, providing them with the tools and knowledge to lead the way in this rapidly evolving field.
+            Through cutting-edge research, cusit.ai delves into the frontiers of AI, pushing the boundaries of what&apos;s possible. <br /> We invest in nurturing the next generation of AI experts, providing them with the tools and knowledge to lead the way in this rapidly evolving field. <br />
 
-            Our focus extends beyond research. We champion ethical AI development, ensuring responsible implementation that benefits society. Additionally, cusit.ai bridges the gap between academia and real-world applications, developing innovative AI solutions that tackle pressing global challenges.
+            Our focus extends beyond research. We champion ethical AI development, ensuring responsible implementation that benefits society. <br /> Additionally, cusit.ai bridges the gap between academia and real-world applications, developing innovative AI solutions that tackle pressing global challenges. <br />
 
-            Join us on this exciting journey! Explore the world of AI with cusit.ai. Become part of our vibrant community of researchers, students, and industry professionals as we work together to unlock the full potential of AI and create a better future.
+            Join us on this exciting journey! Explore the world of AI with cusit.ai. <br /> Become part of our vibrant community of researchers, students, and industry professionals as we work together to unlock the full potential of AI and create a better future.
           </p>
         </div>
       </section>
