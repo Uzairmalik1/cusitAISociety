@@ -30,7 +30,7 @@ export default function Skillathon() {
           Calling all AI enthusiasts! 🚀
           </h1>
           <p className="text-sm md:text-lg font-semibold text-gray-700 mb-4">
-          cusit.ai, the Artificial Intelligence initiative at City University of Science & Information Technology, is thrilled to announce the cusit.ai Skillathon! This is your chance to showcase your expertise in AI, compete with fellow innovators, and push the boundaries of what's possible.
+          cusit.ai, the Artificial Intelligence initiative at City University of Science & Information Technology, is thrilled to announce the cusit.ai Skillathon! This is your chance to showcase your expertise in AI, compete with fellow innovators, and push the boundaries of what&apos;s possible.
           </p>
           <FAQ/>
         </div>
@@ -72,7 +72,7 @@ export default function Skillathon() {
           </div>
           <div>
             <h3 className="text-lg md:text-2xl font-semibold">How do I register?</h3>
-            <p className='text-sm md:text-base'>Click on the <Link href={"/register"} className='text-blue-500 hover:text-blue-600 cursor-pointer'>"Register Now"</Link> button above to sign up for Skillathon 2024.</p>
+            <p className='text-sm md:text-base'>Click on the <Link href={"/register"} className='text-blue-500 hover:text-blue-600 cursor-pointer'>&quot;Register Now&quot;</Link> button above to sign up for Skillathon 2024.</p>
           </div>
         </div>
       </section>

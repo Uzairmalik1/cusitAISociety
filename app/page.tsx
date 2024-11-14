@@ -60,7 +60,7 @@ export default function HomePage() {
 
             We believe AI has the potential to revolutionize industries, solve global challenges, and improve the quality of life for all. cusit.ai fosters a collaborative and interdisciplinary environment, empowering students and faculty to explore the limitless possibilities of AI.
 
-            Through cutting-edge research, cusit.ai delves into the frontiers of AI, pushing the boundaries of what's possible. We invest in nurturing the next generation of AI experts, providing them with the tools and knowledge to lead the way in this rapidly evolving field.
+            Through cutting-edge research, cusit.ai delves into the frontiers of AI, pushing the boundaries of what&apos;s possible. We invest in nurturing the next generation of AI experts, providing them with the tools and knowledge to lead the way in this rapidly evolving field.
 
             Our focus extends beyond research. We champion ethical AI development, ensuring responsible implementation that benefits society. Additionally, cusit.ai bridges the gap between academia and real-world applications, developing innovative AI solutions that tackle pressing global challenges.
 
@@ -80,7 +80,7 @@ export default function HomePage() {
           <p className="mt-4 text-gray-700 text-sm md:text-lg pb-4">
 
 
-            As a member of cusit.ai, you'll gain access to a vibrant community of like-minded individuals passionate about AI. Here's what we offer: <br />
+            As a member of cusit.ai, you&apos;ll gain access to a vibrant community of like-minded individuals passionate about AI. Here&apos;s what we offer: <br />
 
             <strong>Networking Opportunities:</strong> Connect with AI experts, industry leaders, and fellow students. <br />
             <strong>Skill Development Workshops:</strong> Enhance your AI skills through hands-on workshops and tutorials. <br />
