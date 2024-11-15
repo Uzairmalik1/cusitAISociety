@@ -42,12 +42,12 @@ export default function HomePage() {
         </a>
       </div>
 
-      <section id='about' className="flex flex-col justify-center h-screen items-center p-6 md:p-10 lg:p-20 bg-indigo-50 relative">
+      <section id='about' className="flex md:flex-row justify-center items-center h-full p-6 md:p-10 lg:p-20 bg-indigo-50 relative">
 
         {/* Sideline with Rotated Text */}
-        <div className="absolute left-4 sm:left-[90px] top-10 bottom-10 sm:flex hidden flex-col items-center">
-          <div className="border-l-2 border-black h-full"></div>
-          <p className="mt-[-545px] sm:mt-[-645px] text-black ml-4 sm:ml-7 text-xs font-semibold rotate-90 transform -translate-y-1/2 whitespace-nowrap">
+        <div className="md:flex hidden flex-col h-[600px] items-center relative ">
+          <div className="border-l-2 border-black h-full absolute top-0 bottom-0"></div>
+          <p className="mt-[50px] text-black ml-7 text-xs font-semibold rotate-90 transform -translate-y-1/2 whitespace-nowrap">
             About the Vision
           </p>
         </div>

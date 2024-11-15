@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "../app/globals.css";
 
 const teamMembers = [
     {
@@ -53,7 +54,7 @@ export default function Team() {
                 </div>
 
                 {/* Center Divider with "Our Team" Text */}
-                <div className="sm:flex hidden flex-col h-[500px] items-center relative ">
+                <div className="center-divider ">
                     <div className="border-l-2 border-black h-full absolute top-0 bottom-0"></div>
                     <p className="mt-[30px] text-black ml-7 text-xs font-semibold rotate-90 transform -translate-y-1/2 whitespace-nowrap">
                         Our Team

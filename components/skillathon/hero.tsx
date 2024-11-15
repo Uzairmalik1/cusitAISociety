@@ -50,7 +50,7 @@ export default function Skillathon() {
                                 <CgArrowLongRight size={90} className='px-4' />
                                 <p className='text-3xl font-semibold'>25th</p>
                             </div>
-                            <div className='flex justify-around text-sm lg:text-base'>
+                            <div className='flex justify-evenly text-sm lg:text-base'>
                                 <p className='ml-5'>Nov 2024</p>
                                 <p className='mr-3'>Nov 2024</p>
                             </div>

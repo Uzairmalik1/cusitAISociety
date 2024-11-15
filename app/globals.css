@@ -8,8 +8,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} */
+.center-divider{
+  display: none;
+}
 
+@media (min-width: 1024px) {
+  .center-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    position: relative;
+  }
+}

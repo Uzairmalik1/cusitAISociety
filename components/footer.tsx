@@ -14,7 +14,7 @@ export default function Footer() {
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition duration-300">
             <FaTwitter size={24} />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition duration-300">
+          <a href="https://www.instagram.com/cusit.ai?igsh=YzljYTk1ODg3Zg%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition duration-300">
             <FaInstagram size={24} />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition duration-300">
